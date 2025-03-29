@@ -794,8 +794,8 @@ fun MainContent(navController: NavHostController) {
                     verticalArrangement = Arrangement.Center,
                     modifier = Modifier
                         .clip(RoundedCornerShape(8.dp))
-                        .fillMaxSize()
                         //.background(MaterialTheme.colorScheme.surfaceContainerLowest)
+                        .fillMaxSize()
                         .border(
                             width = 1.dp,
                             color = MaterialTheme.colorScheme.surfaceContainerHighest,
